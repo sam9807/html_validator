@@ -7,10 +7,10 @@ You will implement an extended version of the balanced parentheses algorithm tha
 
 **Learning Objectives:**
 
-1. implement the balanced parenthesis algorithm
-1. practice using HTML
-1. practice using stacks
-1. practice using the pytest
+1. Implement the balanced parenthesis algorithm
+1. Practice using HTML
+1. Practice using stacks
+1. Practice using the pytest
 
 ## Background
 
