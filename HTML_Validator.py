@@ -61,10 +61,13 @@ def _extract_tags(html):
         tags = html[index]
 
         if tags == '<':
+            temp += '<'
             while tags != '>':
-                temp += tags
-                index = index + 1
-                tags = html[index]
-            temp += '>'
+                if index < (len(html) - 1):
+                    index = index + 1
+                    tags = html[index]
+                    temp += tags
+                else:
+                    break
             s.append(temp)
     return s
